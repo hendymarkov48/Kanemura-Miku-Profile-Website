@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 金村美玖非公式ファンサイト -->
+    <title>みくネットファンサイト</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Top -->
+    <section class="topContents">
+      <h2 class="heading_top"><a href="/">みくネット Fansite</a></h2>
+      <ul class="menu_groups">
+        <a href="/"><li class="menu_lists">Home</li></a>
+        <a href="news.html"><li class="menu_lists">News</li></a>
+        <a href="profile.html"><li class="menu_lists">Profile</li></a>
+        <a href="movies.html"><li class="menu_lists">Movies</li></a>
+      </ul>
+      <img src="img/header-01.jpg" alt="金村美玖写真" id="img-header" />
+      <img src="img/header-02.jpg" alt="金村美玖写真" id="img-header" />
+      <img src="img/header-03.jpg" alt="金村美玖写真" id="img-header" />
+      <img src="img/header-04.jpeg" alt="金村美玖写真" id="img-header" />
+      <img src="img/header-05.jpg" alt="金村美玖写真" id="img-header" />
+    </section>
+    <!-- Top -->
+    <section class="topContents fixed hide">
+      <h2 class="heading_top"><a href="/">みくネット Fansite</a></h2>
+      <ul class="menu_groups">
+        <a href="/"><li class="menu_lists">Home</li></a>
+        <a href="news.html"><li class="menu_lists">News</li></a>
+        <a href="profile.html"><li class="menu_lists">Profile</li></a>
+        <a href="movies.html"><li class="menu_lists">Movies</li></a>
+      </ul>
+    </section>
+    <!-- Contents Start Here -->
+    <main class="mainContents">
+      <section class="profile_section">
+        <h2 class="heading heading_profile">Profile</h2>
+        <div class="profile-details">
+          <img
+            src="img/miku-photo1.jpg"
+            alt="Kanemura Miku Photo Profile"
+            id="imgProfile"
+          />
+          <div class="text-details">
+            <h3 class="heading-details">金村 美玖（かねむら みく)</h3>
+            <p class="mikuHistory">
+              生年月日 <strong>2002年9月10日</strong>
+              <br />
+              星座 <strong>おとめ座</strong>
+              <br />
+              身長 <strong>163.5cm</strong>
+              <br />
+              出身地 <strong>埼玉県</strong> <br />血液型 <strong>O型</strong>
+            </p>
+            <button class="btn btn-mobame">
+              <a
+                href="https://www.hinatazaka46.com/s/h46app/page_common/app_guide"
+                >日向坂46メッセージ</a
+              >
+            </button>
+            <button class="btn btn-blog">
+              <a
+                href="https://www.hinatazaka46.com/s/official/artist/12?ima=0000"
+                >金村美玖公式ブログ</a
+              >
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="gallery_section">
+        <h2 class="heading heading_gallery">Gallery</h2>
+        <div class="gallery">
+          <img
+            src="img/gallery-01.jpg"
+            alt=""
+            class="galleryImg"
+            onclick="openModal();currentSlide(1)"
+          />
+          <img
+            src="img/gallery-02.jpg"
+            alt=""
+            class="galleryImg"
+            onclick="openModal();currentSlide(2)"
+          />
+          <img
+            src="img/gallery-03.jpeg"
+            alt=""
+            class="galleryImg"
+            onclick="openModal();currentSlide(3)"
+          />
+          <img
+            src="img/gallery-04.jpg"
+            alt=""
+            class="galleryImg"
+            onclick="openModal();currentSlide(4)"
+          />
+          <img
+            src="img/gallery-05.jpg"
+            alt=""
+            class="galleryImg"
+            onclick="openModal();currentSlide(5)"
+          />
+          <img
+            src="img/gallery-06.jpg"
+            alt=""
+            class="galleryImg"
+            onclick="openModal();currentSlide(6)"
+          />
+          <img
+            src="img/gallery-07.jpg"
+            alt=""
+            class="galleryImg"
+            onclick="openModal();currentSlide(7)"
+          />
+          <img
+            src="img/gallery-08.jpg"
+            alt=""
+            class="galleryImg"
+            onclick="openModal();currentSlide(8)"
+          />
+          <img
+            src="img/gallery-09.jpg"
+            alt=""
+            class="galleryImg"
+            onclick="openModal();currentSlide(9)"
+          />
+          <img
+            src="img/gallery-10.jpg"
+            alt=""
+            class="galleryImg"
+            onclick="openModal();currentSlide(10)"
+          />
+          <img
+            src="img/gallery-11.jpg"
+            alt=""
+            class="galleryImg"
+            onclick="openModal();currentSlide(11)"
+          />
+          <img
+            src="img/gallery-12.jpg"
+            alt=""
+            class="galleryImg"
+            onclick="openModal();currentSlide(12)"
+          />
+        </div>
+        <div id="myModal" class="modal">
+          <span class="close" onclick="closeModal()">&times;</span>
+          <div class="modal-content">
+            <div class="mySlides">
+              <img src="img/gallery-01.jpg" class="galleryImgModal">
+            </div>
+            <div class="mySlides">
+              <img src="img/gallery-02.jpg" class="galleryImgModal">
+            </div>
+            <div class="mySlides">
+              <img src="img/gallery-03.jpeg" class="galleryImgModal">
+            </div>
+            <div class="mySlides">
+              <img src="img/gallery-04.jpg" class="galleryImgModal">
+            </div>
+            <div class="mySlides">
+              <img src="img/gallery-05.jpg" class="galleryImgModal">
+            </div>
+            <div class="mySlides">
+              <img src="img/gallery-06.jpg" class="galleryImgModal">
+            </div>
+            <div class="mySlides">
+              <img src="img/gallery-07.jpg" class="galleryImgModal">
+            </div>
+            <div class="mySlides">
+              <img src="img/gallery-08.jpg" class="galleryImgModal">
+            </div>
+            <div class="mySlides">
+              <img src="img/gallery-09.jpg" class="galleryImgModal">
+            </div>
+            <div class="mySlides">
+              <img src="img/gallery-10.jpg" class="galleryImgModal">
+            </div>
+            <div class="mySlides">
+              <img src="img/gallery-11.jpg" class="galleryImgModal">
+            </div>
+            <div class="mySlides">
+              <img src="img/gallery-12.jpg" class="galleryImgModal">
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </section>
+    </main>
+    <!-- Contents End Here -->
+    <!-- Footer -->
+    <div class="footer">
+      <p class="text-copyright">
+        &copy; Hinatazaka46 Official Website | &copy;2022 みくネット FANSITE
+      </p>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
