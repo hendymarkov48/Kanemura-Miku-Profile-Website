@@ -872,3 +872,115 @@ a {
     margin: 0 auto;
   }
 }
+@media only screen and (orientation: portrait) {
+  .topContents {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #e6f2ff;
+    transition: padding 0.5s;
+    height: 100vh;
+    transition: height 0.5s;
+  }
+
+  #img-header {
+    width: 50%;
+    opacity: 0.9;
+    transition: width 0.5s;
+    /* display: none; */
+  }
+
+  /* News */
+  .news_section {
+    margin: 0px 50px 100px 50px;
+    width: 69%;
+  }
+
+  .news-items::before {
+    right: -20px;
+  }
+
+  .content {
+    margin-left: 0px;
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .btn {
+    width: 45%;
+  }
+
+  /* Profile */
+
+  .profile_section {
+    margin: 24px 50px 100px 50px;
+    width: 80%;
+  }
+
+  #imgProfile {
+    width: 80%;
+    border-radius: 30px;
+    transition: border-radius 1s ease;
+  }
+
+  .btn-mobame,
+  .btn-blog {
+    width: auto;
+  }
+  /* Gallery */
+  .gallery_section {
+    margin: 24px 50px 100px 50px;
+    width: 80%;
+  }
+
+  .galleryImg {
+    margin: 12px;
+    width: 40%;
+  }
+
+  /* Lightbox Gallery */
+  .close {
+    color: white;
+    position: absolute;
+    top: 50px;
+    right: 15%;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  .galleryImgModal {
+    width: 60%;
+  }
+
+  .prev {
+    left: 5%;
+    border-radius: 3px 0 0 3px;
+  }
+  .next {
+    right: 5%;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* Movies Page */
+  .movies_section {
+    margin: 24px 50px 100px 50px;
+    width: 80%;
+  }
+
+  .movie {
+    margin: 20px 0 0px 0px;
+    border: 2px black solid;
+    line-height: 0;
+  }
+
+  .movie iframe {
+    width: 300px;
+  }
+
+  /* Footer */
+  .text-copyright {
+    margin-left: 10px;
+  }
+}
