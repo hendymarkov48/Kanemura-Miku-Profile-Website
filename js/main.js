@@ -115,7 +115,7 @@ function carousel() {
   }
   x[indexSlideShow - 1].style.display = 'block';
   x[indexSlideShow - 1].style.opacity = 1;
-  setTimeout(carousel, 2500); // Change image every 2 seconds
+  setTimeout(carousel, 6000); // Change image every 2 seconds
 }
 
 // Lightbox

@@ -71,7 +71,7 @@ a {
 #img-header {
   width: 30%;
   transition: width 0.5s;
-  animation: fadeIn 2.5s ease;
+  /* animation: fadeIn 2.5s ease-in; */
 }
 
 /* Section Menu */
