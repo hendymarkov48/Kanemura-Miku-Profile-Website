@@ -107,12 +107,14 @@ function carousel() {
   var x = document.querySelectorAll('#img-header');
   for (i = 0; i < x.length; i++) {
     x[i].style.display = 'none';
+    x[i].style.opacity = 0;
   }
   indexSlideShow++;
   if (indexSlideShow > x.length) {
     indexSlideShow = 1;
   }
   x[indexSlideShow - 1].style.display = 'block';
+  x[indexSlideShow - 1].style.opacity = 1;
   setTimeout(carousel, 1500); // Change image every 2 seconds
 }
 
