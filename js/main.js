@@ -107,7 +107,6 @@ function carousel() {
   var x = document.querySelectorAll('#img-header');
   for (i = 0; i < x.length; i++) {
     x[i].style.display = 'none';
-    x[i].style.opacity = 0;
   }
   indexSlideShow++;
   if (indexSlideShow > x.length) {
@@ -115,7 +114,8 @@ function carousel() {
   }
   x[indexSlideShow - 1].style.display = 'block';
   x[indexSlideShow - 1].style.opacity = 1;
-  setTimeout(carousel, 6000); // Change image every 2 seconds
+
+  setTimeout(carousel, 4000); // Change image every 2 seconds
 }
 
 // Lightbox
