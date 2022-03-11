@@ -70,9 +70,8 @@ a {
 
 #img-header {
   width: 30%;
-  opacity: 0;
   transition: width 0.5s;
-  animation: fadeIn 1s ease;
+  animation: fadeIn 2.5s ease;
 }
 
 /* Section Menu */
